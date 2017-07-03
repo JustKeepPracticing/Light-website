@@ -1,0 +1,1762 @@
+/****  *****/
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../fonts/MontserratRegular.woff)
+}
+
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.woff)
+}
+
+/*** here is header***/
+
+/*******fonts and font families*******/
+
+.zoom-logo span, .menu a, .app-section .app-info h3, .app-buttons, .services-first-section h3, .services-second-section h3, .services-third-section h3, .video-stuff p, .first-layout h1, .first-layout-services h4, .second-layout .app-info h1, .second-layout .app-info h4, .second-layout h1, .third-layout-info h4, .app-gallery, .photographer-info, .seen-on h3, .section-stuff h3, .subsription-stuff h3, .subsription-stuff span, .email-subscribe input, .email-subscribe button, .web-stores span, .contact-us h1, .contact-us p, .forms-to-fill input, .message-box textarea, .message, .footer p, .pricing-section h3, .pricing-header h4, .pricing-header h5, .checkmarks, .pricing-section .dollar, .pricing-section .zero, .twenty-nine, .fifty-four, .monthly, .pricing-section button, .free-forever, .best-option, .team, .note   {
+    font-family: MontserratRegular;
+}
+
+.app-section .app-info p, .services-first-section span, .services-second-section span, .services-third-section span, .first-layout p, .first-layout-services p, .second-layout .app-info p, .second-layout-info p, .third-layout-info p, .section-stuff p, .pricing-header p  {
+    font-family: Montserrat-Light;
+}
+
+/*********colors are right here**********/
+
+.zoom-logo span, .menu a, .app-section .app-info h3, .app-section .app-info p, .video-stuff p, .app-gallery, .photographer-info p:first-of-type, .subsription-stuff h3, .subsription-stuff span, .email-subscribe button, .web-stores span, .message, .pricing-section button  {
+    color: #fff
+}
+
+.services-first-section h3, .services-second-section h3, .services-third-section h3, .app-buttons a:hover, .first-layout h1, .second-layout h1, .third-layout-info h4, .seen-on h3, .section-stuff h3, .contact-us h1, .pricing-section h3, .pricing-section h3, .pricing-header h4, .pricing-header h5, .checkmarks, .pricing-section .dollar, .pricing-section .zero, .twenty-nine, .fifty-four      {
+    color: #585B60;
+}
+
+.services-second-section span, .first-layout-info p, .second-layout-info p, .third-layout-info p, .first-layout p, .services-first-section span, .services-third-section span, .section-stuff p, .contact-us p, .footer p, .pricing-header p, .monthly, .free-forever, .best-option, .team  {
+    color:#9DA6AC
+}
+
+/**********font-size is here**********/
+
+.app-gallery p, .section-stuff p, .app-store, .win-store, .play-store, .subsription-stuff span, .contact-us p, .forms-to-fill input, .message-box textarea {
+    font-size: 19px
+}
+
+/******************border radius****************/
+.pricing-section button, .first-table, .second-table, .third-table, .forms-to-fill input, .message-box textarea, .message {
+    border-radius: 3px
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+/********************header****************************/
+
+.header {
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
+}
+
+.header-stuff {
+    height: 1060px;
+}
+
+#showblock {
+    display: none;
+
+}
+
+/*************menu is here*********/
+
+.menu li {
+    float: left;
+    margin-right: 23px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #77417D;
+}
+
+#logo-menu {
+    width: 1146px;
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zoom-logo {
+    display: flex;
+    align-items: center;
+}
+
+.zoom-logo span {
+    margin-left: 15px;
+}
+
+.app-section {
+    width: 1156px;
+    display: inline-flex;
+}
+
+/****************header-stuff is here****************/
+
+.header-stuff .iphone {
+    padding-top: 156px;
+    float: left;
+}
+
+.header-stuff .app-info {
+    padding-top: 263px;
+    margin-left: 23px;
+}
+
+.app-section .app-info h3, .zoom-logo span, .first-layout h1, .second-layout h1, .third-layout-info h4, .app-gallery h4, .section-stuff h3, .subsription-stuff h3, .contact-us h1, .pricing-section h3  {
+    font-size: 40px;
+}
+
+.app-section .app-info p {
+    margin-top: 52px;
+    line-height: 1.5;
+}
+
+.app-buttons {
+    padding-top: 67px;
+    line-height: 49px
+}
+
+.app-buttons a {
+    width: 247px;
+    height: 49px;
+    background-color: #8F427E;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+
+}
+
+.app-buttons a:nth-child(2) {
+    background-image: url(../img/play-icon.png);
+    background-repeat: no-repeat;
+    background-position: 34px, center
+}
+
+.app-buttons a:hover{
+    background-color: #fff;
+}
+
+.app-buttons a:nth-child(2):hover {
+    background-image: url(../img/play-button_hover8.png);
+    background-repeat: no-repeat;
+}
+
+
+/*******************services-first section************************/
+
+.services-first-section, .services-third-section {
+    background-color: #F8F9FB;
+}
+
+.services-first-section {
+    height: 923px;
+    text-align: center;
+}
+
+.services-first-section h3, .services-second-section h3, .services-third-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+
+}
+
+.services-first-section h3, .services-second-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+
+}
+
+
+.services-first-section span, .services-second-section span, .services-third-section span, .first-layout p, .second-layout p {
+    font-size: 17px;
+    line-height: 21px;
+
+}
+
+.services-first-section span, .services-third-section span {
+    margin-top: 15px;
+}
+
+.services-first-row {
+    padding-top: 226px;
+}
+
+.services-first-row .responsive, .services-first-row .retina, .services-first-row .bootstrap {
+    margin-right: 60px;
+}
+
+.services-first-row .easy-to-customize, .services-first-row .responsive, .services-first-row .retina, .services-first-row .bootstrap {
+    float: left;
+}
+
+.services-second-row {
+    width: 535px;
+    margin: 0 auto;
+    padding-top: 322px;
+}
+
+.services-second-row .icons {
+    float: left;
+    margin-right: 60px;
+}
+
+.services-first-section .imgs, .services-second-section .imgs, .services-third-section .imgs {
+    width: 66px;
+    height: 66px;
+    border-radius: 66px;
+    border: 2px solid #E9EBEC;
+    display: inline-block;
+    background-color: #fff;
+
+}
+
+.services-first-section img, .services-second-section img, .services-third-section img {
+    position: relative;
+    top: 15px;
+}
+
+.services-first-section .imgs:hover {
+    background-repeat: no-repeat;
+    visibility: visible;
+    background-position: center;
+    background-color: #FF3366;
+}
+
+.services-first-section .responsive .imgs:hover {
+    background-image: url(../img/responsive-hover.png);
+}
+
+.services-first-section .retina .imgs:hover {
+    background-image: url(../img/retina-ready-hover.png);
+}
+
+.services-first-section .bootstrap .imgs:hover {
+    background-image: url(../img/build-with-b-hover.png);
+}
+
+.services-first-section .easy-to-customize .imgs:hover {
+    background-image: url(../img/easy-to-customize-hover.png);
+}
+
+.services-first-section .icons .imgs:hover {
+    background-image: url(../img/hundreds-of-icons-hover.png);
+}
+
+.services-first-section .m-layout .imgs:hover {
+    background-image: url(../img/multiple-layout-hover.png);
+}
+
+.services-first-section .imgs:hover img {
+    visibility: hidden;
+}
+
+
+/********************* services-second-section is here*********************/
+
+.services-second-section {
+    text-align: justify;
+    overflow: hidden;
+}
+
+.services-second-section .imgs {
+    text-align: center;
+    margin-right: 11px;
+    margin-top: 35px
+}
+
+.whole-services {
+    padding-top: 129px;
+    overflow: hidden;
+}
+
+.services-second-section .iphone-column, .services-second-section .imgs, .second-column, .first-column, .services-third-section .first-column, .services-third-section .iphone-column, .services-third-section .third-column {
+    float: left;
+}
+
+.services-second-section .iphone-column {
+    padding-bottom: 158px;
+    margin-right: 58px;
+}
+
+.services-second-section.second-column {
+    padding-top: 78px;
+
+}
+
+.services-second-section .third-column {
+    margin-left: 40px;
+    float: left
+}
+
+.services-second-section .column-info, .third-column .easy-to-customize  {
+    display: inline-block;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/****************services-third-section is here******************/
+
+.services-third-section .iphone-column {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -14px;
+}
+
+.full-services {
+    padding-top: 229px;
+    padding-bottom: 194px;
+    overflow: hidden;
+}
+
+.full-services .bootstrap, .full-services .easy-to-customize {
+    margin-top: 135px;
+    margin-bottom: 160px;
+}
+
+.responsive, .bootstrap, .icons, .retina, .easy-to-customize, .third-column .m-layout {
+    overflow: hidden;
+
+}
+
+.services-third-section .imgs {
+    text-align: center;
+}
+
+.services-third-section .first-column, .services-third-section .third-column {
+    padding-top: 41px;
+}
+
+.responsive-part, .bootstrap-part, .icons-part, .first-column .imgs, .services-third-section .imgs, .retina-part, .easy-to-customize_part, .m-layout-part {
+    float: left;
+}
+
+.responsive-part, .bootstrap-part, .icons-part, .retina-part, .easy-to-customize_part, .m-layout-part {
+    margin-top: 26px;
+}
+
+.third-column .imgs {
+    margin-right: 14px;
+}
+
+
+
+/***** video-section is here******/
+
+.video-section {
+    background-image: url(../img/video-bgjpg.jpg);
+    height: 457px;
+    text-align: center;
+}
+
+.video-stuff p {
+    font-size: 30px;
+    margin-top: 19px;
+}
+
+.video-stuff img {
+    cursor: pointer;
+}
+
+.video-section, .vimeo-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.video-stuff, .vimeo-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*********************description-section is here************************/
+
+/**********first-layout*********/
+
+.description-section .first-layout {
+    width: 1214px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.first-layout {
+    padding-top: 115px;
+
+}
+
+.first-layout-info {
+    display: inline-block;
+    float: left;
+    margin-left: 134px;
+    padding-top: 92px;
+}
+
+.first-layout .iphone, .icon-img, .service-info, .detailed-info {
+    float: left;
+}
+
+.first-layout-info h1+p, .second-layout-info h1+p {
+    margin-top: 40px;
+}
+
+
+.first-layout-services {
+    margin-top: 90px;
+}
+
+
+.service-info {
+    margin-bottom: 48px;
+}
+
+.icon-img {
+    margin-right: 19px;
+}
+
+.first-layout-services h4+p, .second-layout-info h4+p {
+    margin-top: 17px;
+}
+
+
+/******first-layout ends********/
+
+
+/********second-layout*******/
+
+.second-layout {
+    padding-bottom: 195px;
+}
+
+.second-layout-info {
+    width: 1152px;
+    margin: 0 auto;
+    padding-top: 444px;
+    overflow: hidden;
+}
+
+.second-layout-info .first-column {
+    margin-right: 58px
+}
+
+.second-layout-info .app-info {
+    margin-top: 91px;
+}
+
+.second-layout-info .iphone {
+    float: right;
+    margin-top: -350px;
+}
+
+.detailed-info {
+    margin-bottom: 68px
+}
+
+/*******second-layout ends*****/
+
+
+/*********vimeo-section is here********/
+
+.vimeo-section {
+    background-image: url(../img/vimeo-bg.jpg);
+    height: 789px;
+}
+
+/***************third-layout is here******************/
+
+.description-second-section {
+    background-color: #F8F9FB;
+    overflow: hidden;
+}
+
+.description-second-section .iphone {
+    float: left;
+    margin-right: 159px;
+}
+
+.third-layout {
+    padding-top: 129px;
+    padding-bottom: 128px;
+    overflow: hidden;
+}
+
+.third-layout-info {
+    padding-top: 96px;
+    overflow: hidden;
+}
+
+.third-layout-info h4 {
+    margin-bottom: 45px;
+}
+
+.third-layout-info p {
+    font-size:  17px;
+    line-height:  27px;
+}
+
+.third-layout-info .deeppink-word-color {
+    color: #FF3366;
+}
+
+.third-layout-info p:last-of-type {
+    margin-top: 42px;
+}
+
+/*****************third-layout ends********************/
+
+
+/****************app-gallery is here*******************/
+
+.app-gallery {
+    background-color: #3C3852;
+    overflow: hidden;
+}
+
+.app-gallery h4 {
+    padding-top:  135px;
+}
+
+.app-gallery h4, .app-gallery p {
+    text-align: center;
+}
+
+.app-gallery p {
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+.screenshots {
+    height: 467px;
+    margin-bottom: 68px;
+}
+
+.screenshots img {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.screenshots .first-screenshot img {
+    margin-left: 12px;
+}
+
+.screenshots .forth-screenshot img {
+    margin-right: 0;
+}
+
+.first-screenshot, .second-screenshot, .third-screenshot, .forth-screenshot {
+    float: left;
+}
+
+/****dots****/
+
+.app-dots {
+    padding-bottom: 127px;
+    text-align: center;
+}
+
+.app-dot,  .dot {
+    width: 16px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.dot:nth-of-type(2), .app-dot:nth-of-type(2) {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.app-dot {
+    background-color: #656277;
+}
+
+.app-dot:hover {
+    background-color: #FF3366;
+}
+
+/*****dots ends*****/
+
+/*********pricing-section**********/
+
+.pricing-section {
+    overflow: hidden;
+}
+
+.horizontal-line {
+   width: 355px;
+   height: 1px;
+   background-color: #CCCCCC;
+   margin-top: 33px;
+
+
+}
+
+.pricing-section h3 {
+    text-align: center;
+    margin-top: 135px;
+}
+
+.pricing-section button {
+    background-color: #FF3366;
+    width: 145px;
+    height: 34px;
+    border-bottom: 2px solid #CC2952;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 80px;
+    outline: none;
+}
+
+.free-forever, .best-option, .team {
+    font-size: 15px;
+}
+
+.pricing-section .dollar {
+    font-size: 25px;
+}
+
+.pricing-section .zero, .twenty-nine, .fifty-four {
+    font-size: 50px;
+}
+
+.monthly {
+    font-size: 25px;
+}
+
+.pricing-tables {
+    overflow: hidden;
+    padding-bottom: 160px;
+    padding-top: 105px;
+}
+
+.first-table, .second-table, .third-table {
+    float: left;
+    border: 1px solid #CCCCCC;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 355px;
+    min-height: 502px;
+}
+
+.first-table:hover, .second-table:hover, .third-table:hover {
+    border-color: #FF3366;
+}
+
+.first-table button {
+    margin-right: 80px;
+}
+
+.second-table button {
+    margin-right: 31px;
+}
+
+.third-table button {
+    margin-right: 73px;
+}
+
+.pricing-header, .pricing-footer {
+    padding-left: 20px;
+}
+
+.pricing-footer {
+    margin-top: 21px;
+    padding-bottom: 31px;
+}
+
+.pricing-footer p {
+    margin-bottom: 32px;
+}
+
+.pricing-header {
+    background-color: #F7F8FA;
+    padding-bottom: 27px;
+    margin-bottom: 26px;
+    padding-top: 26px;
+}
+
+.popular p {
+    color: #fff;
+}
+
+.popular {
+    width: 88px;
+    height: 22px;
+    background-color: #FF3366;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.pricing-header p {
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+.pricing-header h4 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.pricing-header h5 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.checkmarks {
+    list-style-image: url(../img/checkmark.png);
+    font-size: 15px;
+    padding-left: 47px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+/********pricing-sections ends*****/
+
+/*******photographer-section********/
+
+.photographer-section {
+    background-image: url(../img/photographer-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photographer-info, .seen-on {
+    text-align: center;
+}
+
+.photographer-info p:first-of-type {
+    font-size: 22px;
+    margin-bottom: 39px;
+    line-height: 30px;
+}
+
+.photographer-info p:last-of-type {
+    color: #E2D4DE;
+    font-size: 18px;
+    margin-bottom: 76px;
+}
+
+.dot {
+    background-color: #B891B2;
+}
+
+.dot:hover {
+    background-color: #F4EDF2;
+}
+
+/*******photographer-section ends********/
+
+/*************see-on section is here*********************/
+
+.seen-on {
+    background-color: #F8F9FB;
+}
+
+.seen-on h3 {
+    font-size: 30px;
+    padding-top: 102px;
+    margin-bottom: 58px;
+}
+
+.seen-on .logos {
+    padding-bottom: 104px;
+}
+
+.seen-on .logos img:nth-child(1), .seen-on .logos img:nth-child(2) {
+    margin-right: 85px;
+}
+
+.seen-on .logos img:nth-child(3) {
+    margin-right: 68px;
+}
+
+.seen-on .logos img:nth-child(4) {
+    margin-right: 76px;
+}
+
+/***********see-on ends**********/
+
+/***********download-app is right here******************/
+
+.download-app {
+    text-align: center;
+}
+
+.section-stuff {
+    padding-top: 148px;
+}
+
+.section-stuff h3 {
+    margin-bottom: 34px;
+}
+
+.section-stuff p {
+    margin-bottom: 55px;
+    line-height: 25px;
+}
+
+.web-stores {
+    padding-bottom: 148px;
+}
+
+.web-stores  a {
+    text-decoration: none;
+}
+
+.web-stores img {
+    margin-right: 26px;
+}
+
+.web-stores .availability {
+    font-size: 15px;
+}
+
+.app-store, .win-store, .play-store {
+    text-transform: uppercase;
+}
+
+.apple, .android, .windows {
+    width: 232px;
+    height: 67px;
+    display: inline-block;
+    background-position: 13px, center;
+}
+
+.apple {
+    background-image: url(../img/apple-icon.png), url(../img/apple-bg.png);
+    background-repeat: no-repeat, no-repeat;
+
+}
+.android {
+    background-image: url(../img/android-icon.png), url(../img/android-bg.png);
+    background-repeat: no-repeat, no-repeat;
+}
+
+.apple, .android {
+    margin-right: 27px;
+}
+
+.web-stores a {
+    position: relative;
+}
+
+.web-stores a>span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 91px;
+}
+
+.windows {
+    background-image: url(../img/win-icon.png), url(../img/win-bg.png);
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+/***********download-app ends******************/
+
+/************subscription-section is here*************/
+
+.subscription-section {
+    background-image: url(../img/subscribe-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.subsription-stuff {
+    text-align: center;
+    color: #fff;
+    padding-top: 132px;
+}
+
+.subsription-stuff h3 {
+    margin-bottom: 19px;
+}
+
+.email-subscribe {
+    margin-top: 70px;
+}
+
+.email-subscribe button, .email-subscribe input, .forms-to-fill input, .message-box textarea, .message {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+
+}
+
+.email-subscribe button, .email-subscribe input {
+    font-size: 18px;
+}
+
+.email-subscribe input {
+    border-bottom: 3px solid #CCCCCC;
+
+}
+
+.email-subscribe button {
+    border-bottom: 3px solid #CC2952;
+}
+
+.email-subscribe input {
+    width: 370px;
+    height: 53px;
+    border-top-left-radius: 5px;
+    padding-left: 18px;
+    border-bottom-left-radius: 5px;
+    color: #A9A9B1;
+}
+
+.email-subscribe button {
+    width: 184px;
+    height: 58px;
+    background-color: #FF3366;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -4px;
+    cursor: pointer;
+
+}
+
+/************subscription-section ends*************/
+
+/**************contact-us is here******************/
+
+.contact-us {
+    background-color: #F7F8FA;
+}
+
+.contact-us-info {
+    text-align: center;
+    padding-top: 145px;
+    padding-bottom: 139px;
+    border-bottom-color: 1px solid #EAEAEA;
+}
+
+.contact-us-info h1 {
+    margin-bottom: 36px;
+}
+
+.forms-to-fill {
+    margin-top: 45px;
+}
+
+.forms-to-fill div {
+    margin-bottom: 20px;
+}
+
+.forms-to-fill input  {
+    height: 48px;
+}
+
+.forms-to-fill input, .message-box textarea {
+    width: 549px;
+}
+
+.forms-to-fill input, .message-box textarea {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.forms-to-fill input, .message-box textarea {
+    padding-left: 18px;
+    color: #A9A9A9;
+}
+
+.message-box textarea {
+    height: 196px;
+    resize: none;
+    font-size: 19px;
+    padding-top: 21px
+}
+
+.message {
+    background-color: #FF3366;
+    font-size: 18px;
+    width: 568px;
+    height: 52px;
+    border-bottom: 2px solid #CC2952;
+    cursor: pointer;
+    margin-top: 37px;
+}
+
+/**************contact-us ends******************/
+
+/***************footer is here************/
+
+.envelope-arrow {
+    width: 48px;
+    height: 60px;
+    background-color: #F7F8FA;
+    margin: 0 auto;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid #EAEAEA;
+    border-top-color: transparent;
+    background-image: url(../img/envelope.png), url(../img/arrow.png);
+    background-position: center 8px, center 39px;
+    background-repeat: no-repeat;
+}
+
+/***************social-icons*******************/
+
+.social-icons {
+    text-align: center;
+    width: 462px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.social-icons img {
+    position: relative;
+    top: 11px;
+}
+
+.twitter-logo, .facebook-logo, .google-logo, .linkedin-logo, .dribble-logo, .insta-logo, .pinterest-logo {
+    float: left;
+    margin-right: 21px;
+    border: 2px solid #E9EBEC;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+}
+
+/**************social-icons end****************/
+
+.footer {
+    padding-bottom: 48px;
+}
+
+.line {
+    width: 323px;
+    height: 1px;
+    background-color: #CCCCCC;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 46px;
+}
+
+.footer p  {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/* media */
+
+@media (max-width: 768px) {
+
+    .container,  #logo-menu, .app-section, .app-info, .first-layout, .header-stuff, .description-section .first-layout, .second-layout-info  {
+        width: 100%;
+    }
+
+    .zoom-logo {
+        margin-left: 20px;
+    }
+
+    .app-buttons a:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    .services-second-section {
+        padding-bottom: 30px;
+    }
+
+    .services-first-section {
+        padding-bottom: 60px;
+    }
+
+    .services-first-row > div, .services-second-row > div {
+        overflow: hidden;
+        float: none !important;
+        display: inline-block;
+    }
+
+    .services-second-row {
+        padding-top: 0 !important;
+    }
+
+    .services-first-row .responsive {
+        margin-left: 60px;
+    }
+
+    .services-first-row .bootstrap, .services-first-row .easy-to-customize, .services-second-row {
+        margin-top: 40px;
+    }
+
+    .services-second-section .whole-services {
+        padding: 0 15px;
+    }
+
+    .whole-services .iphone-column {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px !important;
+    }
+
+    .whole-services .second-column {
+        margin-left: 15px;
+        margin-right: 20px ;
+    }
+
+    .services-second-section .third-column {
+        margin-left: 0 !important;
+    }
+
+    .full-services {
+        padding-top: 0;
+        padding-bottom: 90px;
+    }
+
+    .full-services .first-column {
+        padding-bottom: 35px;
+    }
+
+    .full-services .bootstrap, .full-services .easy-to-customize {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .full-services .first-column > div, .full-services .third-column > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .full-services .iphone-column {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0
+    }
+
+    .full-services .third-column, .full-services .first-column, .full-services .iphone-column, .description-second-section .iphone, .second-layout-info .iphone, .pricing-tables > div {
+        float: none;
+    }
+
+    .description-section .first-layout .iphone {
+        text-align: center;
+        float: none;
+    }
+
+    .description-section .first-layout-info {
+        padding-top: 60px;
+    }
+
+    .description-section .first-layout-services {
+        margin-top: 60px;
+    }
+
+    .description-section .second-layout {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .second-layout .second-layout-info {
+        padding-top: 40px;
+    }
+
+    .second-layout-info .iphone {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .second-layout .app-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin-top: 70px;
+    }
+
+    .description-second-section .third-layout {
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+
+    .description-second-section .iphone {
+        margin-right: 0;
+    }
+
+    .third-layout-info {
+        text-align: left;
+        padding: 0 13px;
+    }
+
+    .third-layout .iphone {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .third-layout-info h4 {
+        text-align: center;
+    }
+
+    .app-gallery h4 {
+        padding-top: 56px;
+    }
+
+    .app-gallery .app-dots {
+        padding-bottom: 60px;
+    }
+
+    .app-gallery .screenshots {
+        text-align: center;
+        height: auto;
+    }
+
+    .app-gallery .screenshots > div {
+        display: inline-block;
+        float: none;
+    }
+
+    .first-screenshot, .third-screenshot {
+        margin-right: 12px;
+    }
+
+    .app-gallery .screenshots img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .first-screenshot, .second-screenshot {
+        margin-bottom: 12px;
+    }
+
+    .pricing-section h3 {
+        margin-top: 80px;
+    }
+
+    .pricing-tables {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .pricing-tables > div {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .seen-on .logos img:nth-of-type(4) {
+        margin-top: 30px;
+    }
+
+    .section-stuff {
+        padding-top: 70px;
+    }
+
+    .section-stuff .web-stores {
+        padding-bottom: 120px;
+    }
+
+    .subsription-stuff {
+        padding-top: 96px;
+    }
+
+    .contact-us-info {
+        padding-top: 80px;
+    }
+
+}
+
+@media (max-width: 667px) {
+
+    .app-section .app-buttons a {
+        width: 219px;
+    }
+
+    .app-section .app-buttons a:nth-child(2) {
+        background-position: 20px, center;
+    }
+
+    .app-section .app-info {
+        margin-left: 0;
+    }
+
+    .header-stuff .app-section .app-info h3 {
+        font-size: 39px;
+    }
+
+    .services-second-section .iphone-column, .services-second-section .second-column, .services-second-section .third-column {
+        float: none;
+    }
+
+    .services-second-section .second-column > div, .services-second-section .third-column > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-layout-info {
+        margin-left: 0;
+    }
+
+    .description-section {
+        padding: 0 31px;
+    }
+
+    .description-section .second-layout {
+        text-align: left;
+    }
+
+    .second-layout-info p br {
+        display: none;
+    }
+
+    .second-layout .app-info {
+        text-align: center;
+        display: block;
+    }
+
+    .app-info .first-column, .app-info .second-column, .app-info .m-layout {
+        display: inline-block;
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .vimeo-section {
+        height: 467px;
+    }
+
+    .section-stuff .web-stores {
+        padding-bottom: 70px;
+    }
+
+    .web-stores .windows {
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 568px) {
+
+    #logo-menu {
+        background: #D7487E;
+        overflow: hidden;
+        -webkit-transition: height 300ms linear;
+        -moz-transition: height 300ms linear;
+        -o-transition: height 300ms linear;
+        transition: height 300ms linear;
+        display: none;
+    }
+
+    .menu {
+        margin-left: 17px;
+        margin-top: 14px;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+        float: none;
+    }
+
+    .nav-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #563d7c;
+        margin-bottom: 3px;
+    }
+
+    label {
+        cursor: pointer;
+        float: right;
+        padding-top: 13px;
+        margin-right: 13px;
+    }
+
+    #showblock {
+        height: 0;
+    }
+
+    #showblock:checked + #logo-menu {
+        height: auto;
+        display: block;
+    }
+
+    .app-section {
+        text-align: center;
+        padding-top: 30px;
+        display: block;
+    }
+
+    .app-section .app-info {
+        padding-top: 0;
+        padding-bottom: 33px;
+    }
+
+    .app-section .app-info p {
+        margin-top: 30px;
+    }
+
+    .app-section .iphone {
+        float: none;
+        padding-top: 0;
+    }
+
+    .app-info .app-buttons {
+        padding-top: 30px;
+    }
+
+    .header-stuff, .header {
+        height: auto;
+    }
+
+    .services-first-row .responsive {
+        margin-left: 0;
+    }
+
+    .services-first-section {
+        height: auto
+    }
+
+    .services-first-section h3 {
+        margin-top: 29px;
+    }
+
+    .services-first-row {
+        padding-top: 75px;
+    }
+
+    .services-first-row .responsive, .services-first-row .retina, .services-first-row .bootstrap, .services-second-row .icons {
+        margin-right: 30px;
+    }
+
+    .first-layout-services > div, .second-layout-info .first-column > div, .second-layout-info .second-column > div {
+        display: flex;
+
+    }
+
+    .vimeo-section {
+        display: none;
+    }
+
+    .seen-on .logos {
+        padding-bottom: 67px;
+    }
+
+    .seen-on .logos img:nth-child(4) {
+        margin-right: 37px;
+    }
+
+    .seen-on .logos img:nth-child(1), .seen-on .logos img:nth-child(2) {
+        margin-right: 37px;
+    }
+
+    .email-subscribe input {
+        width: 310px;
+    }
+
+    .contact-us-info p, .app-gallery p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contact-us-info p br, .app-gallery p br {
+        display: none;
+
+    }
+
+    .forms-to-fill .message {
+        width: 532px;
+    }
+
+    .forms-to-fill input, .message-box textarea {
+        width: 517px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .services-second-row {
+        width: 100%;
+    }
+
+    .first-layout .iphone img {
+        width: 90%;
+    }
+
+    .first-layout-info h1+p {
+        text-align: justify;
+    }
+
+    .first-layout-info h1+p br, .section-stuff p br {
+        display: none;
+    }
+
+    .services-first-row .responsive, .services-first-row .retina, .services-first-row .bootstrap, .services-second-row .icons {
+        margin-right: 8px;
+    }
+
+    .services-first-section .retina, .services-first-section .m-layout {
+        margin-top: 40px;
+    }
+
+    .video-section {
+        height: 340px;
+    }
+
+    .first-screenshot, .third-screenshot {
+        margin-right: 0;
+    }
+
+    .third-screenshot {
+        margin-bottom: 12px;
+    }
+
+    .seen-on h3 {
+        padding-top: 55px;
+    }
+
+    .logos img:last-of-type {
+        margin-top: 21px;
+    }
+
+    .web-stores .windows {
+        margin-top: 0;
+        margin-right: 27px;
+    }
+
+    .email-subscribe input {
+        width: 249px;
+    }
+
+    .forms-to-fill input, .message-box textarea {
+        width: 433px;
+    }
+
+    .forms-to-fill .message {
+        width: 460px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .app-section .iphone img, .third-layout .iphone img, .second-layout-info .iphone img, .iphone-column img {
+        width: 90%;
+    }
+
+    .services-second-section .second-column > div, .services-second-section .third-column > div {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .services-second-section .second-column .imgs, .services-second-section .third-column .imgs {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .services-second-section .third-column, .full-services {
+        margin-left: 15px !important;
+    }
+
+    .full-services {
+        margin-right: 15px;
+    }
+
+    .whole-services span br {
+        display: none;
+    }
+
+    .full-services .first-column > div, .full-services .third-column > div {
+        display: block;
+    }
+
+    .section-stuff .windows, .apple, .android {
+        margin-right: 0;
+    }
+
+    .first-table, .second-table, .third-table {
+        float: none;
+        border: 1px solid #CCCCCC;
+        width: 271px;
+        min-height: 502px;
+    }
+
+    .services-second-section .whole-services .column-info {
+        margin-bottom: 30px;
+    }
+
+    .services-second-section h3 {
+        margin-top: 30px;
+    }
+
+    .retina-part, .easy-to-customize_part, .m-layout-part {
+        margin-top: -61px;
+        margin-left: 88px;
+    }
+
+    .full-services .first-column .imgs {
+        display: block;
+        float: right;
+        margin-top: -80px;
+    }
+
+    .full-services .third-column .imgs {
+        display: block;
+        float: left;
+    }
+
+
+    .full-services .first-column span {
+        float: left;
+        margin-right: 88px;
+        margin-top: 15px;
+    }
+
+    .full-services span br {
+        display: none;
+
+    }
+
+    .services-third-section {
+        padding: 0 15px;
+    }
+
+    .detailed-info, .service-info {
+        margin-bottom: 40px;
+    }
+
+    .vimeo-section {
+        height: 226px;
+    }
+
+    .first-layout {
+        padding-top: 46px;
+    }
+
+    .android {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .horizontal-line {
+        width: 271px;
+    }
+
+    .photographer-info p {
+        padding: 0 10px;
+    }
+
+    .photographer-info p br, .third-layout-info p br {
+        display: none;
+
+    }
+
+    .second-layout-info h1+p {
+        text-align: justify;
+    }
+
+    .photographer-info p:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .logos img {
+        display: block;
+        margin: 17px auto !important;
+    }
+
+    .pricing-footer button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .free-forever, .best-option, .team {
+        text-align: center;
+        display: block;
+        margin-top: 7px;
+    }
+
+    .email-subscribe input {
+        width: 141px
+    }
+
+    .email-subscribe button {
+        width: 146px;
+    }
+
+    .forms-to-fill input, .message-box textarea {
+        width: 266px
+    }
+
+    .forms-to-fill .message {
+        width: 286px;
+    }
+
+    .social-icons {
+        width: 100%;
+        text-align: center;
+    }
+
+    .twitter-logo, .facebook-logo, .google-logo, .linkedin-logo, .dribble-logo, .insta-logo, .pinterest-logo {
+        display: inline-block;
+        float: none;
+        border: 2px solid #E9EBEC;
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+
+    .line {
+        width: 293px;
+    }
+
+}
+
+
+
